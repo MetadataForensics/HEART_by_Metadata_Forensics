@@ -12,7 +12,14 @@ Acknowledgments:
 - This software includes the CustomTkinter library, which is licensed under the MIT License. Copyright (c) 2023 Tom Schimansky. The full license text can be found here: https://github.com/TomSchimansky/CustomTkinter
 - This software includes the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found here: https://github.com/olifolkerd/tabulator/blob/master/LICENSE
 - This software uses the Pillow library (PIL fork), licensed under the Historical Permission Notice and Disclaimer (HPND). https://pypi.org/project/pillow/
-- This project acknowledges the iLEAPP project (https://github.com/abrignoni/iLEAPP) by Alexis Brignoni and contributors for its influence on the developer's early exploration of Python-based artifact parsing. While this software is independently developed, iLEAPP was instrumental in the developer's transition from SQL and XML scripting to Python-based forensic tooling.
+
+We would like to extend our gratitude, and provide reference to, others within our great DFIR Community who have furthered the support of Apple Health and Fitness artifacts, scripts, and more:
+
+- Sarah Edwards and APOLLO, https://github.com/mac4n6/APOLLO
+
+- Ian Whiffin and Health Data Types available at DoubleBlak, https://www.doubleblak.com/blogPost.php?k=Health
+
+- Alexis Brignoni and all who assisted in Health Data within iLEAPP, https://github.com/abrignoni/iLEAPP
 
 Software: HEART  
 Author: Metadata Forensics, LLC  
