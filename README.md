@@ -67,6 +67,18 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Workouts Additional Metadata
 - Glossary
 
+# Leveraging Tabulator:
+
+
+
+https://github.com/user-attachments/assets/a1175fe8-86bb-4a9b-94c3-18fcecda9a3b
+
+
+
+Reviewing out data with Tabulator, we can search and filter in real time with our records count adjusting on the fly. Searching within multiple columns filters the data even further. 
+
+Wish the columns were in a different order? Change them! The changes reflect in exported reports as well.
+
 # Acknowledgments:
 - This software includes the CustomTkinter library, which is licensed under the MIT License. Copyright (c) 2023 Tom Schimansky. The full license text can be found [here](https://github.com/TomSchimansky/CustomTkinter)
 - This software includes the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found [here](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
