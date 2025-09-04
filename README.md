@@ -2,7 +2,7 @@
 
 <img width="832" height="562" alt="HEART" src="https://github.com/user-attachments/assets/12d05ff5-9406-4f03-93c4-2407ae40e392" />
 
-Now available, HEART - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions! This free tool parses Apple Health and Fitness Application data from Apple iPhone extractions in a forensic manner.
+HEART - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions in a forensic manner!
 
 # Version 1.0 Features:
 
