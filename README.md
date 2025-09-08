@@ -1,8 +1,8 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="832" height="562" alt="HEART" src="https://github.com/user-attachments/assets/12d05ff5-9406-4f03-93c4-2407ae40e392" />
+<img width="844" height="569" alt="HEART" src="https://github.com/user-attachments/assets/5343b60d-3fdb-465c-9175-42c57100ce56" />
 
-HEART - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions in a forensic manner!
+HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions in a forensic manner!
 
 # Version 1.0 Features:
 
@@ -20,11 +20,11 @@ HEART - a free-to-use tool parsing Apple Health and Fitness application data fro
 
 - HTML Light and Dark Mode
 
-# HEART, the Application:
+# HEART by Metadata Forensics, the Application:
 
 Application use is as easy as browsing for your input FFS Extraction, browsing to your output location, and selecting "Process"! Processing time will vary based on database size. 
 
-HEART output files include the HEART HTML Report and a folder containing Apple Health and Fitness Application databases. 
+HEART by Metadata Forensics output files include the HEART HTML Report and a folder containing Apple Health and Fitness Application databases. 
 
 Once processing is complete, selecting "Close" will both exit the application and launch the HTML report. Data is processed to minimize the size of the HTML report as much as possible. Overall HTML report sizes are variable based on input database values and artifacts supported. Initial HTML report loading times will vary as well - based on size of the report.
 
@@ -71,7 +71,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 
 
 
-https://github.com/user-attachments/assets/a1175fe8-86bb-4a9b-94c3-18fcecda9a3b
+https://github.com/user-attachments/assets/67a616a2-1e66-45ed-8153-3508469db8ed
 
 
 
