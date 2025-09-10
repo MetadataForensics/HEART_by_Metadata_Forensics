@@ -79,6 +79,11 @@ Reviewing out data with Tabulator, we can search and filter in real time with ou
 
 Wish the columns were in a different order? Change them! The changes reflect in exported reports as well.
 
+# Usage
+
+You may also be required to take additional steps when running the tool the first time, through Microsoft Defender SmartScreen. In the Microsoft Defender SmartScreen select "More info" and "Run anyway" to launch the application the first time. 
+
+
 # Acknowledgments:
 - This software includes the CustomTkinter library, which is licensed under the MIT License. Copyright (c) 2023 Tom Schimansky. The full license text can be found [here](https://github.com/TomSchimansky/CustomTkinter)
 - This software includes the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found [here](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
