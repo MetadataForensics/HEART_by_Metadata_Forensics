@@ -44,6 +44,8 @@ Once processing is complete, selecting "Close" will both exit the application an
 # Health Artifacts:
 
 - Activity
+- Cardio Fitness
+- Blood Oxygen*
 - Resting Heart Rate
 - Walking Heart Rate Average
 - Heart Rate Notifications (Low / High)
@@ -66,6 +68,8 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Workouts Location Data
 - Workouts Additional Metadata
 - Glossary
+
+_* A redesigned Blood Oxygen feature was introduced on August 14, 2025, for Apple Watch Series 9, Series 10, and Apple Watch Ultra 2. OS requirements are Apple iPhone iOS 18.6.1 or higher and Apple Watch watchOS 11.6.1 or higher. iOS 26 and watchOS 26 continue to support this feature._
 
 # Leveraging Tabulator:
 
