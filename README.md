@@ -10,7 +10,7 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 29 currently supported artifacts
+- 31 currently supported artifacts
 
 - Glossary derived from database information
 
