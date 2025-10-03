@@ -1,16 +1,16 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="844" height="569" alt="HEART" src="https://github.com/user-attachments/assets/5343b60d-3fdb-465c-9175-42c57100ce56" />
+<img width="1042" height="705" alt="HEART version 1 0 0 1" src="https://github.com/user-attachments/assets/b4433460-34ad-45aa-8b7b-df78434740f9" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions in a forensic manner!
 
-# Version 1.0 Features:
+# Version 1.0.0.1 Features:
 
 - Easy to install and use application
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 31 currently supported artifacts
+- 32 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -61,6 +61,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Respiratory Rate - Weekly
 - Connected Device Information - Device History
 - Consolidated Connected Device History
+- Device Information - Current Device (New)
 - Environmental Sound
 - Noise Notifications
 - Headphone Audio Levels
