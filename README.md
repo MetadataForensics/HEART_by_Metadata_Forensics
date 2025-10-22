@@ -1,16 +1,22 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="1042" height="705" alt="HEART version 1 0 0 1" src="https://github.com/user-attachments/assets/b4433460-34ad-45aa-8b7b-df78434740f9" />
+<img width="839" height="548" alt="HEART by Metadata Forensics 1 1 0 0" src="https://github.com/user-attachments/assets/8b8989f3-efe5-4cba-8091-f11b2aa38e08" />
 
-HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data from Full File System (FFS) Extractions in a forensic manner!
+HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
-# Version 1.0.0.1 Features:
+# Version 1.1.0.0 Features:
+
+- Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
+
+- All about the Speed! Version 1.1.0.0 now supports Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down
+
+# HEART by Metadata Forensics Features:
 
 - Easy to install and use application
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 32 currently supported artifacts
+- 36 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -22,7 +28,7 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 
 # HEART by Metadata Forensics, the Application:
 
-Application use is as easy as browsing for your input FFS Extraction, browsing to your output location, and selecting "Process"! Processing time will vary based on database size. 
+Application use is as easy as browsing for your input file, browsing to your output location, and selecting "Process"! Processing time will vary based on database size. 
 
 HEART by Metadata Forensics output files include the HEART HTML Report and a folder containing Apple Health and Fitness Application databases. 
 
@@ -45,6 +51,10 @@ Once processing is complete, selecting "Close" will both exit the application an
 
 - Activity
 - Cardio Fitness
+- Walking Speed
+- Running Speed
+- Stair Speed Up
+- Stair Speed Down
 - Blood Oxygen*
 - Resting Heart Rate
 - Walking Heart Rate Average
@@ -90,9 +100,10 @@ You may also be required to take additional steps when running the tool the firs
 
 
 # Acknowledgments:
-- This software includes the CustomTkinter library, which is licensed under the MIT License. Copyright (c) 2023 Tom Schimansky. The full license text can be found [here](https://github.com/TomSchimansky/CustomTkinter)
-- This software includes the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found [here](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
-- This software uses the [Pillow library](https://pypi.org/project/pillow/) (PIL fork), licensed under the Historical Permission Notice and Disclaimer (HPND). 
+- This software uses the CustomTkinter library, which is licensed under the MIT License. Copyright (c) 2023 Tom Schimansky. The full license text can be found [here](https://github.com/TomSchimansky/CustomTkinter)
+- This software uses the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found [here](https://github.com/olifolkerd/tabulator/blob/master/LICENSE)
+- This software uses the [Pillow library](https://pypi.org/project/pillow/) (PIL fork), licensed under the Historical Permission Notice and Disclaimer (HPND).
+- This software uses the [iphone_backup_decrypt](https://pypi.org/project/iphone-backup-decrypt/) library, licensed under the MIT License. 
 
 # Gratitude and Thanks:
 We would like to extend our gratitude, and provide reference to, others within our great DFIR Community who have furthered the support of Apple Health and Fitness artifacts, scripts, and more:
