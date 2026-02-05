@@ -1,14 +1,14 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="839" height="548" alt="HEART by Metadata Forensics 1 1 0 0" src="https://github.com/user-attachments/assets/8b8989f3-efe5-4cba-8091-f11b2aa38e08" />
+<img width="1072" height="701" alt="V 1 1 0 2" src="https://github.com/user-attachments/assets/39df1563-522b-43fa-ac6b-1ef8035c93f1" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
-# Version 1.1.0.0 Features:
+# Newest Features:
 
 - Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
 
-- All about the Speed! Version 1.1.0.0 now supports Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down
+- All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1 and 1.1.0.2, minor updates)
 
 # HEART by Metadata Forensics Features:
 
