@@ -1,6 +1,6 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="1072" height="701" alt="V 1 1 0 2" src="https://github.com/user-attachments/assets/39df1563-522b-43fa-ac6b-1ef8035c93f1" />
+<img width="852" height="557" alt="V 1 2 0 0" src="https://github.com/user-attachments/assets/54d91319-b251-4c3a-a97d-d28e2a33011a" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
@@ -8,7 +8,7 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 
 - Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
 
-- All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1 and 1.1.0.2, minor updates)
+- All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, and 1.2.0.0 minor updates)
 
 # HEART by Metadata Forensics Features:
 
@@ -16,7 +16,7 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 36 currently supported artifacts
+- 37 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -64,6 +64,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 - All Sleep Data
 - Sleep Data by Sleep Period
 - Watch Worn Data
+- Wrist Temperature
 - Sleeping Wrist Temp - Vitals
 - Sleeping Wrist Temp - Weekly
 - Respiratory Rate
