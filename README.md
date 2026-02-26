@@ -1,10 +1,13 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="852" height="557" alt="V 1 2 0 0" src="https://github.com/user-attachments/assets/54d91319-b251-4c3a-a97d-d28e2a33011a" />
+<img width="832" height="542" alt="V 1 3 0 0" src="https://github.com/user-attachments/assets/9d9324a2-e047-416d-9122-aef92144ac4e" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
 # Newest Features:
+
+- Added Local Device Time conversions! Because most Apple Health and Fitness application artifacts are attributed to the specific device that measured and recorded the event, the associated time zone is preserved as well. This enables a unique Local Device Time conversion based on the device’s time zone at the time of the event, rather than applying a single overall time zone conversion. <br>
+  _Note: If the data source is a binary object, device attribution is not preserved; therefore, no associated time zone can be determined._
 
 - Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
 
