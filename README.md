@@ -1,6 +1,6 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="836" height="565" alt="HEARTv 1 3 0 1" src="https://github.com/user-attachments/assets/bb726bf4-dee0-4f65-a8ac-57e549026675" />
+<img width="835" height="571" alt="V 1 3 1 0" src="https://github.com/user-attachments/assets/3d135960-aaf4-4f37-91b7-17c026675138" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
@@ -12,6 +12,8 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 - Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
 
 - All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, 1.2.0.0, and 1.3.0.1 minor updates)
+  
+- Version 1.3.1.0 adds quality-of-life updates.
 
 # HEART by Metadata Forensics Features:
 
@@ -98,6 +100,18 @@ Reviewing out data with Tabulator, we can search and filter in real time with ou
 
 Wish the columns were in a different order? Change them! The changes reflect in exported reports as well.
 
+# Quality-of-Life Updates:
+
+<img width="830" height="565" alt="V 1 3 1 0_1" src="https://github.com/user-attachments/assets/c2acd945-11a6-4114-ac26-fdbf41eb590a" />
+
+The _Processing Complete_ window provides options to open the output folder, view the report, or close and exit HEART by Metadata Forensics.
+
+The selected output folder now includes an automatically generated, process-unique subfolder named:
+
+`HEART_Output_YYYY_MM_DD_HH_MM_SS`
+
+This subfolder contains the Database directory and the HEART.html report.
+
 # Usage
 
 You may also be required to take additional steps when running the tool the first time, through Microsoft Defender SmartScreen. In the Microsoft Defender SmartScreen select "More info" and "Run anyway" to launch the application the first time. 
@@ -117,3 +131,7 @@ We would like to extend our gratitude, and provide reference to, others within o
 - Ian Whiffin and Health Data Types available at [DoubleBlak](https://www.doubleblak.com/blogPost.php?k=Health)
 
 - Alexis Brignoni and all who assisted in Health Data within [iLEAPP](https://github.com/abrignoni/iLEAPP)
+
+A little help from our friends:
+
+- Special thanks to Kevin Pagano ([@stark4n6](https://github.com/stark4n6)) for suggesting the improvements introduced in version 1.3.1.0. Grateful for the feedback that helps make the tool more user-friendly and continues to improve its functionality.
