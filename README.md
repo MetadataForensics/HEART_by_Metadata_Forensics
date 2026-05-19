@@ -1,6 +1,6 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="835" height="571" alt="V 1 3 1 0" src="https://github.com/user-attachments/assets/3d135960-aaf4-4f37-91b7-17c026675138" />
+<img width="818" height="552" alt="HEART Version 1 4 0 0" src="https://github.com/user-attachments/assets/46df6879-1dfd-4f0b-9684-662195703ac9" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
@@ -14,6 +14,8 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 - All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, 1.2.0.0, and 1.3.0.1 minor updates)
   
 - Version 1.3.1.0 adds quality-of-life updates.
+  
+- Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
 
 # HEART by Metadata Forensics Features:
 
@@ -21,7 +23,7 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 37 currently supported artifacts
+- 42 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -42,8 +44,8 @@ Once processing is complete, selecting "Close" will both exit the application an
 # Classic Health Artifacts:
 
 - Heart Rate
-- Steps Taken
-- Distance Traveled
+- Steps
+- Walking + Running Distance
 - Calories Burned
 - Flights Climbed
 
@@ -54,7 +56,11 @@ Once processing is complete, selecting "Close" will both exit the application an
 
 # Health Artifacts:
 
+- cache_encryptedC - Steps
+- cache_encryptedC - Distance
+- cache_encryptedC - Floors Asc Desc
 - Activity
+- NikeFuel
 - Cardio Fitness
 - Walking Speed
 - Running Speed
@@ -82,6 +88,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Noise Notifications
 - Headphone Audio Levels
 - Workouts
+- Workouts - Local Device Time
 - Workouts Location Data
 - Workouts Additional Metadata
 - Glossary
@@ -99,6 +106,12 @@ https://github.com/user-attachments/assets/67a616a2-1e66-45ed-8153-3508469db8ed
 Reviewing out data with Tabulator, we can search and filter in real time with our records count adjusting on the fly. Searching within multiple columns filters the data even further. 
 
 Wish the columns were in a different order? Change them! The changes reflect in exported reports as well.
+
+# cache_encryptedC.db Support: 
+
+Steps, Walking + Running Distance, and Floors Ascended / Floors Descended  parsed through the cache_encryptedC.db, _/private/var/root/Library/Caches/locationd/_, provides a much more granular look at some of the same data from the healthdb_secure.sqlite. While the data retention period is much shorter, this data breakdown is much more temporally precise. Read more about this data and our research [here](http://metadataperspective.com/2026/05/19/empirical-assessment-of-apple-health-activity-data-accuracy-granularity-and-database-artifacts/).
+
+<img width="898" height="423" alt="Floors Asc Desc" src="https://github.com/user-attachments/assets/f56ad108-027a-4e8d-9780-7ff94c6770ed" />
 
 # Quality-of-Life Updates:
 
