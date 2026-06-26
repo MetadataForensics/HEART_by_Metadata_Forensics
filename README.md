@@ -1,6 +1,6 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="818" height="552" alt="HEART Version 1 4 0 0" src="https://github.com/user-attachments/assets/46df6879-1dfd-4f0b-9684-662195703ac9" />
+<img width="841" height="586" alt="V 1 4 1 0" src="https://github.com/user-attachments/assets/6de0beb7-de1d-4027-84ae-5640a2a38e18" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
@@ -17,13 +17,15 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
   
 - Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
 
+- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts. Updates to the Glossary as well.
+
 # HEART by Metadata Forensics Features:
 
 - Easy to install and use application
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 42 currently supported artifacts
+- 47 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -51,6 +53,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 
 # User Attribution:
 
+- Health Details
 - Height 
 - Weight
 
@@ -62,6 +65,8 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Activity
 - NikeFuel
 - Cardio Fitness
+- Cardio Recovery
+- Heart Rate Variability
 - Walking Speed
 - Running Speed
 - Stair Speed Up
@@ -74,6 +79,8 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Time in Daylight
 - All Sleep Data
 - Sleep Data by Sleep Period
+- Mindful Minutes
+- State of Mind
 - Watch Worn Data
 - Wrist Temperature
 - Sleeping Wrist Temp - Vitals
@@ -81,6 +88,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Respiratory Rate
 - Respiratory Rate - Daily
 - Respiratory Rate - Weekly
+- Breathing Disturbances
 - Connected Device Information - Device History
 - Consolidated Connected Device History
 - Device Information - Current Device (New)
