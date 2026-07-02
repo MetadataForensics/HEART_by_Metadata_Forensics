@@ -1,6 +1,6 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="841" height="586" alt="V 1 4 1 0" src="https://github.com/user-attachments/assets/6de0beb7-de1d-4027-84ae-5640a2a38e18" />
+<img width="835" height="570" alt="V 1 4 2 0" src="https://github.com/user-attachments/assets/b533b7e2-abb9-48e3-9f21-3d2f0818e9e8" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
@@ -17,7 +17,11 @@ HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitnes
   
 - Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
 
-- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts. Updates to the Glossary as well.
+- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts, along with updates to the Glossary as well.
+  
+- Version 1.4.2.0 adds Environmental Sound - Detailed, Headphone Audio Levels - Detailed, and Nutrition artifacts, along with updates to the Glossary as well.
+
+Previously, Environmental Sound and Headphone Audio Levels were typically aggregated into 30-minute intervals. In additional to those present artifacts, the new detailed artifacts provide much finer temporal resolution - parsing data at a much more granular level and isolated dB spikes down to individual one-second intervals in some cases.
 
 # HEART by Metadata Forensics Features:
 
