@@ -1,27 +1,30 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="835" height="570" alt="V 1 4 2 0" src="https://github.com/user-attachments/assets/b533b7e2-abb9-48e3-9f21-3d2f0818e9e8" />
+<img width="985" height="837" alt="V 2 0_1" src="https://github.com/user-attachments/assets/1255c74e-1d0b-4c90-9770-efa13e69b8a4" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
 # Newest Features:
 
-- Added Local Device Time conversions! Because most Apple Health and Fitness application artifacts are attributed to the specific device that measured and recorded the event, the associated time zone is preserved as well. This enables a unique Local Device Time conversion based on the device’s time zone at the time of the event, rather than applying a single overall time zone conversion. <br>
-  _Note: If the data source is a binary object, device attribution is not preserved; therefore, no associated time zone can be determined._
+- **Version 2.0** adds support for **Artifact Selection** and **Timestamp Display**.
+    - **Artifact Selection**: Choose which artifacts to process. Analyze a single artifact, a selected subset, or all currently supported artifacts.
+    - **Timestamp Display**: Display timestamps in **UTC (default)** or convert them to the **device's local time**. This reduces the number of timestamp columns by half, resulting in smaller, more readable HTML reports.
 
-- Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
-
-- All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, 1.2.0.0, and 1.3.0.1 minor updates)
-  
-- Version 1.3.1.0 adds quality-of-life updates.
-  
-- Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
-
-- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts, along with updates to the Glossary as well.
-  
 - Version 1.4.2.0 adds Environmental Sound - Detailed, Headphone Audio Levels - Detailed, and Nutrition artifacts, along with updates to the Glossary as well.
 
 Previously, Environmental Sound and Headphone Audio Levels were typically aggregated into 30-minute intervals. In additional to those present artifacts, the new detailed artifacts provide much finer temporal resolution - parsing data at a much more granular level and isolated dB spikes down to individual one-second intervals in some cases.
+
+- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts, along with updates to the Glossary as well.
+
+- Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
+
+- Version 1.3.1.0 adds quality-of-life updates.
+
+- All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, 1.2.0.0, and 1.3.0.1 minor updates)
+
+- Added Device Local Time conversions! Because most Apple Health and Fitness application artifacts are attributed to the specific device that measured and recorded the event, the associated time zone is preserved as well. This enables a unique Device Local Time conversion based on the device’s time zone at the time of the event, rather than applying a single overall time zone conversion.
+
+- Increased support! Now supporting Full File System Extractions, TAR files, some DAR files, Advanced Logical (Encypted) Extractions, and iTunes Encypted Backups!
 
 # HEART by Metadata Forensics Features:
 
@@ -29,7 +32,7 @@ Previously, Environmental Sound and Headphone Audio Levels were typically aggreg
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 47 currently supported artifacts
+- 48 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -41,11 +44,13 @@ Previously, Environmental Sound and Headphone Audio Levels were typically aggreg
 
 # HEART by Metadata Forensics, the Application:
 
-Application use is as easy as browsing for your input file, browsing to your output location, and selecting "Process"! Processing time will vary based on database size. 
+Application use is straightforward: browse for your input file, choose an output location, select the artifacts to process, verify the timestamp display, and click **Process**. Processing time will vary depending on the size of the database.
 
-HEART by Metadata Forensics output files include the HEART HTML Report and a folder containing Apple Health and Fitness Application databases. 
+HEART by Metadata Forensics generates an HTML report along with a folder containing the processed Apple Health and Fitness application databases.
 
-Once processing is complete, selecting "Close" will both exit the application and launch the HTML report. Data is processed to minimize the size of the HTML report as much as possible. Overall HTML report sizes are variable based on input database values and artifacts supported. Initial HTML report loading times will vary as well - based on size of the report.
+When processing is complete, you can immediately open the output folder, launch the HTML report, or click **Close & Exit** to exit the application.
+
+Data is optimized during processing to keep the HTML report as compact as possible. Report size will vary based on the amount of data and supported artifacts contained in the input database. Initial report loading times will also vary with report size. Once the HEART icon appears in the report window, the report has finished loading and is ready for navigation.
 
 # Classic Health Artifacts:
 
@@ -83,6 +88,7 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Time in Daylight
 - All Sleep Data
 - Sleep Data by Sleep Period
+- Nutrition
 - Mindful Minutes
 - State of Mind
 - Watch Worn Data
@@ -93,14 +99,15 @@ Once processing is complete, selecting "Close" will both exit the application an
 - Respiratory Rate - Daily
 - Respiratory Rate - Weekly
 - Breathing Disturbances
-- Connected Device Information - Device History
+- Connected Device History
 - Consolidated Connected Device History
-- Device Information - Current Device (New)
+- Device Information - Current Device
 - Environmental Sound
+- Environmental Sound - Detailed
 - Noise Notifications
 - Headphone Audio Levels
+- Headphone Audio Levels - Detailed
 - Workouts
-- Workouts - Local Device Time
 - Workouts Location Data
 - Workouts Additional Metadata
 - Glossary
@@ -127,7 +134,7 @@ Steps, Walking + Running Distance, and Floors Ascended / Floors Descended  parse
 
 # Quality-of-Life Updates:
 
-<img width="830" height="565" alt="V 1 3 1 0_1" src="https://github.com/user-attachments/assets/c2acd945-11a6-4114-ac26-fdbf41eb590a" />
+<img width="993" height="848" alt="V 2 0_2" src="https://github.com/user-attachments/assets/9f1d85b7-b8f4-4fff-84c0-3e55326ce8da" />
 
 The _Processing Complete_ window provides options to open the output folder, view the report, or close and exit HEART by Metadata Forensics.
 
@@ -139,7 +146,7 @@ This subfolder contains the Database directory and the HEART.html report.
 
 # Usage
 
-You may also be required to take additional steps when running the tool the first time, through Microsoft Defender SmartScreen. In the Microsoft Defender SmartScreen select "More info" and "Run anyway" to launch the application the first time. 
+The latest installer can be downloaded from the **Releases** section of this repository. When launching the tool for the first time, Microsoft Defender SmartScreen may display a warning. If prompted, select **More info**, then **Run anyway** to start the application.
 
 
 # Acknowledgments:
