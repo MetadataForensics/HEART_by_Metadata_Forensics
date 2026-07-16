@@ -1,14 +1,32 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="985" height="837" alt="V 2 0_1" src="https://github.com/user-attachments/assets/1255c74e-1d0b-4c90-9770-efa13e69b8a4" />
+<img width="961" height="837" alt="V 2 1_1" src="https://github.com/user-attachments/assets/58c7a1ca-b937-4ea4-af9f-330d51d83e0d" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
 # Newest Features:
 
-- **Version 2.0** adds support for **Artifact Selection** and **Timestamp Display**.
-    - **Artifact Selection**: Choose which artifacts to process. Analyze a single artifact, a selected subset, or all currently supported artifacts.
-    - **Timestamp Display**: Display timestamps in **UTC (default)** or convert them to the **device's local time**. This reduces the number of timestamp columns by half, resulting in smaller, more readable HTML reports.
+**Version 2.1.0.0** introduces:
+
+- **Date & Time Filtering**
+- Enhanced **Artifact Selection**
+- **7 new artifacts:**
+  - Walking Step Length
+  - Double Support Time
+  - Walking Asymmetry
+  - Walking Steadiness
+  - Symptoms
+  - Environmental Sound Reduction
+  - Environmental Sound Reduction – Details
+
+**HTML Report Improvements**
+- Added a loading screen while the report is generated.
+- The artifact sidebar now automatically adjusts to artifact name length for improved readability.
+
+# Prior Update Features:
+- Version 2.0 adds support for Artifact Selection and Timestamp Display.
+    - Artifact Selection: Choose which artifacts to process. Analyze a single artifact, a selected subset, or all currently supported artifacts.
+    - Timestamp Display: Display timestamps in UTC (default) or convert them to the device's local time. This reduces the number of timestamp columns by half, resulting in smaller, more readable HTML reports.
 
 - Version 1.4.2.0 adds Environmental Sound - Detailed, Headphone Audio Levels - Detailed, and Nutrition artifacts, along with updates to the Glossary as well.
 
@@ -32,7 +50,7 @@ Previously, Environmental Sound and Headphone Audio Levels were typically aggreg
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 48 currently supported artifacts
+- 54 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -78,6 +96,10 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Heart Rate Variability
 - Walking Speed
 - Running Speed
+- Walking Step Length
+- Double Support Time
+- Walking Asymmetry
+- Walking Steadiness
 - Stair Speed Up
 - Stair Speed Down
 - Blood Oxygen*
@@ -89,6 +111,7 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - All Sleep Data
 - Sleep Data by Sleep Period
 - Nutrition
+- Symptoms
 - Mindful Minutes
 - State of Mind
 - Watch Worn Data
@@ -104,9 +127,11 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Device Information - Current Device
 - Environmental Sound
 - Environmental Sound - Detailed
-- Noise Notifications
 - Headphone Audio Levels
 - Headphone Audio Levels - Detailed
+- Noise Notifications
+- Environmental Sound Reduction
+- Environmental Sound Reduction - Detailed
 - Workouts
 - Workouts Location Data
 - Workouts Additional Metadata
@@ -132,9 +157,17 @@ Steps, Walking + Running Distance, and Floors Ascended / Floors Descended  parse
 
 <img width="898" height="423" alt="Floors Asc Desc" src="https://github.com/user-attachments/assets/f56ad108-027a-4e8d-9780-7ff94c6770ed" />
 
+# Date & Time Filtering:
+
+<img width="957" height="848" alt="V 2 1_2" src="https://github.com/user-attachments/assets/95fcf41a-4e54-4eac-82c6-c872b7a77583" />
+
+Date & Time Filtering allows you to limit processing to a specific time range by selecting **Start** and **End** timestamps. The selected values are displayed before processing begins, allowing you to verify the filter. By default, no date or time filters are applied, and all records in the dataset are processed.
+
+**Note:** All date and time values use **UTC (UTC+0)**.
+
 # Quality-of-Life Updates:
 
-<img width="993" height="848" alt="V 2 0_2" src="https://github.com/user-attachments/assets/9f1d85b7-b8f4-4fff-84c0-3e55326ce8da" />
+<img width="965" height="840" alt="V 2 1_3" src="https://github.com/user-attachments/assets/b48152fd-d958-42ae-bbd7-2a6b0ced76b4" />
 
 The _Processing Complete_ window provides options to open the output folder, view the report, or close and exit HEART by Metadata Forensics.
 
