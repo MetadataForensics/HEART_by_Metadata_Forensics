@@ -13,6 +13,8 @@ Acknowledgments:
 - This software uses the Tabulator library, which is licensed under the MIT License. Copyright (c) 2015-2025 Oli Folkerd. The full license text can be found here: https://github.com/olifolkerd/tabulator/blob/master/LICENSE
 - This software uses the Pillow library (PIL fork), licensed under the Historical Permission Notice and Disclaimer (HPND). https://pypi.org/project/pillow/
 - This software uses the iphone_backup_decrypt library, licensed under the MIT License. https://pypi.org/project/iphone-backup-decrypt/
+- This software uses the NumPy library, licensed under the BSD 3-Clause License. Copyright (c) 2005-2024, NumPy Developers. The full license text can be found here: https://github.com/numpy/numpy/blob/main/LICENSE.txt
+- This software uses the Matplotlib library, licensed under the Matplotlib License (BSD-compatible). Copyright (c) 2012- Matplotlib Development Team. The full license text can be found here: https://github.com/matplotlib/matplotlib/blob/main/LICENSE/LICENSE
 
 We would like to extend our gratitude, and provide reference to, others within our great DFIR Community who have furthered the support of Apple Health and Fitness artifacts, scripts, and more:
 
@@ -24,4 +26,4 @@ We would like to extend our gratitude, and provide reference to, others within o
 
 Software: HEART by Metadata Forensics
 Author: Metadata Forensics, LLC  
-Year: 2025
+Year: 2026
