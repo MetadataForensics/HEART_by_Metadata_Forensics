@@ -1,29 +1,26 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="961" height="837" alt="V 2 1_1" src="https://github.com/user-attachments/assets/58c7a1ca-b937-4ea4-af9f-330d51d83e0d" />
+<img width="946" height="818" alt="2 1 0 2" src="https://github.com/user-attachments/assets/6b916605-477d-4c7e-9787-6ec4c2ea0675" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
 # Newest Features:
 
-**Version 2.1.0.0** introduces:
+**Version 2.1.0.2** introduces:
 
-- **Date & Time Filtering**
-- Enhanced **Artifact Selection**
-- **7 new artifacts:**
-  - Walking Step Length
-  - Double Support Time
-  - Walking Asymmetry
-  - Walking Steadiness
-  - Symptoms
-  - Environmental Sound Reduction
-  - Environmental Sound Reduction – Details
-
-**HTML Report Improvements**
-- Added a loading screen while the report is generated.
-- The artifact sidebar now automatically adjusts to artifact name length for improved readability.
+- **4 new artifacts:**
+  - Medical ID Data
+  - Handwashing
+  - Toothbrushing
+  - Electrocardiograms - ECG
+<p align="center">
+  <img width="700" alt="ECG_7354405" src="https://github.com/user-attachments/assets/dc712b29-55a3-4602-b798-b10d828aaf1c" />
+</p>
+<p align="center"> <em>ECG data is processed and visualized as waveforms for review and analysis.</em> </p>
 
 # Prior Update Features:
+- Version 2.1.0.0 adds Date & Time Filtering, enhanced Artifact Selection, HTML improvements, and artifacts: Walking Step Length, Double Support Time, Walking Asymmetry, Walking Steadiness, Symptoms, Environmental Sound Reduction, Environmental Sound Reduction – Details.
+
 - Version 2.0 adds support for Artifact Selection and Timestamp Display.
     - Artifact Selection: Choose which artifacts to process. Analyze a single artifact, a selected subset, or all currently supported artifacts.
     - Timestamp Display: Display timestamps in UTC (default) or convert them to the device's local time. This reduces the number of timestamp columns by half, resulting in smaller, more readable HTML reports.
@@ -50,7 +47,7 @@ Previously, Environmental Sound and Headphone Audio Levels were typically aggreg
 
 - HTML report generation to review Classic Health Artifacts, User Attribution Artifacts, and other Health Artifacts (as supported through input data)
 
-- 54 currently supported artifacts
+- 58 currently supported artifacts
 
 - Glossary derived from database information
 
@@ -81,6 +78,7 @@ Data is optimized during processing to keep the HTML report as compact as possib
 # User Attribution:
 
 - Health Details
+- Medical ID Data
 - Height 
 - Weight
 
@@ -91,6 +89,7 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - cache_encryptedC - Floors Asc Desc
 - Activity
 - NikeFuel
+- Electrocardiograms - ECG*
 - Cardio Fitness
 - Cardio Recovery
 - Heart Rate Variability
@@ -102,7 +101,7 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Walking Steadiness
 - Stair Speed Up
 - Stair Speed Down
-- Blood Oxygen*
+- Blood Oxygen**
 - Resting Heart Rate
 - Walking Heart Rate Average
 - Heart Rate Notifications (Low / High)
@@ -110,6 +109,8 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Time in Daylight
 - All Sleep Data
 - Sleep Data by Sleep Period
+- Handwashing
+- Toothbrushing
 - Nutrition
 - Symptoms
 - Mindful Minutes
@@ -137,7 +138,9 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Workouts Additional Metadata
 - Glossary
 
-_* A redesigned Blood Oxygen feature was introduced on August 14, 2025, for Apple Watch Series 9, Series 10, and Apple Watch Ultra 2. OS requirements are Apple iPhone iOS 18.6.1 or higher and Apple Watch watchOS 11.6.1 or higher. iOS 26 and watchOS 26 continue to support this feature._
+_* The ECG value for Atrial Fibrillation is still unknown; currently supported are Sinus Rhythm, Low and High Heart Rate, Inconclusive, and Poor Reading. If you determine the value for Atrial Fibrillation or other ECG results, please provide the information for incorporation and we will give our thanks!_
+
+_** A redesigned Blood Oxygen feature was introduced on August 14, 2025, for Apple Watch Series 9, Series 10, and Apple Watch Ultra 2. OS requirements are Apple iPhone iOS 18.6.1 or higher and Apple Watch watchOS 11.6.1 or higher. iOS 26 and watchOS 26 continue to support this feature._
 
 # Leveraging Tabulator:
 
