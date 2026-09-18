@@ -1,39 +1,34 @@
 # HEART: Health Events & Activity Reporting Tool
 
-<img width="946" height="818" alt="2 1 0 2" src="https://github.com/user-attachments/assets/6b916605-477d-4c7e-9787-6ec4c2ea0675" />
+<img width="977" height="837" alt="2 2 0 0" src="https://github.com/user-attachments/assets/71970fab-e699-41d9-b388-20340bb208a5" />
 
 HEART by Metadata Forensics - a free-to-use tool parsing Apple Health and Fitness application data in a forensic manner!
 
 # Newest Features:
 
-**Version 2.1.0.2** introduces:
+**Version 2.2.0.0** introduces new PDF reporting capabilities:
 
-- **4 new artifacts:**
-  - Medical ID Data
-  - Handwashing
-  - Toothbrushing
-  - Electrocardiograms - ECG
-<p align="center">
-  <img width="700" alt="ECG_7354405" src="https://github.com/user-attachments/assets/dc712b29-55a3-4602-b798-b10d828aaf1c" />
-</p>
-<p align="center"> <em>ECG data is processed and visualized as waveforms for review and analysis.</em> </p>
+- **Enhanced PDF Reports**
+    - PDF reports now include a cover page and page numbers.
+    - Selections from multiple artifacts can now be combined into a single PDF report.
 
 # Prior Update Features:
-- Version 2.1.0.0 adds Date & Time Filtering, enhanced Artifact Selection, HTML improvements, and artifacts: Walking Step Length, Double Support Time, Walking Asymmetry, Walking Steadiness, Symptoms, Environmental Sound Reduction, Environmental Sound Reduction – Details.
+- Version 2.1.0.2 added Medical ID Data, Handwashing, Toothbrushing, and Electrocardiograms - ECG artifacts.
+- Version 2.1.0.0 added Date & Time Filtering, enhanced Artifact Selection, HTML improvements, and artifacts: Walking Step Length, Double Support Time, Walking Asymmetry, Walking Steadiness, Symptoms, Environmental Sound Reduction, Environmental Sound Reduction – Details.
 
-- Version 2.0 adds support for Artifact Selection and Timestamp Display.
+- Version 2.0 added support for Artifact Selection and Timestamp Display.
     - Artifact Selection: Choose which artifacts to process. Analyze a single artifact, a selected subset, or all currently supported artifacts.
     - Timestamp Display: Display timestamps in UTC (default) or convert them to the device's local time. This reduces the number of timestamp columns by half, resulting in smaller, more readable HTML reports.
 
-- Version 1.4.2.0 adds Environmental Sound - Detailed, Headphone Audio Levels - Detailed, and Nutrition artifacts, along with updates to the Glossary as well.
+- Version 1.4.2.0 added Environmental Sound - Detailed, Headphone Audio Levels - Detailed, and Nutrition artifacts, along with updates to the Glossary as well.
 
 Previously, Environmental Sound and Headphone Audio Levels were typically aggregated into 30-minute intervals. In additional to those present artifacts, the new detailed artifacts provide much finer temporal resolution - parsing data at a much more granular level and isolated dB spikes down to individual one-second intervals in some cases.
 
-- Version 1.4.1.0 adds Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts, along with updates to the Glossary as well.
+- Version 1.4.1.0 added Health Details, Cardio Recovery, Heart Rate Variability, Mindful Minutes, State of Mind, and Breathing Disturbances artifacts, along with updates to the Glossary as well.
 
-- Version 1.4.0.0 adds cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
+- Version 1.4.0.0 added cache_encryptedC.db support for Steps, Walking + Running Distance, and Floors Ascended / Floors Descended. NikeFuel support added. _Minor updates to additional artifacts also added._
 
-- Version 1.3.1.0 adds quality-of-life updates.
+- Version 1.3.1.0 added quality-of-life updates.
 
 - All about the Speed! Version 1.1.0.0 added support for Walking Speed, Running Speed, Stair Speed Up, and Stair Speed Down (Version 1.1.0.1, 1.1.0.2, 1.2.0.0, and 1.3.0.1 minor updates)
 
@@ -99,6 +94,7 @@ Data is optimized during processing to keep the HTML report as compact as possib
 - Double Support Time
 - Walking Asymmetry
 - Walking Steadiness
+- Number of Times Fallen
 - Stair Speed Up
 - Stair Speed Down
 - Blood Oxygen**
